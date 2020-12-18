@@ -11,6 +11,6 @@
 #'
 #' @export
 getDados <- function(carteira,from,to,auto = FALSE){
-  
-  return (quantmod::getSymbols(carteira, from=from, to=to, auto.assign=auto))
+
+  return  (na.omit(quantmod::getSymbols(carteira, from=from, to=to, auto.assign=auto)))
 }

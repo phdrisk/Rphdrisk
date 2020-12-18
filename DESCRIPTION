@@ -1,6 +1,6 @@
 Package: Rphdrisk
 Title: Funcoes Auxiliadoras para o mercado financeiro
-Version: 0.0.0.9035
+Version: 0.0.0.9037
 Authors@R: 
     person(given = "Phdrisk",
            family = "Ltda",
